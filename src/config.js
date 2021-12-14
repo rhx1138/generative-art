@@ -2,6 +2,7 @@ const basePath = process.cwd();
 const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 const { NETWORK } = require(`${basePath}/constants/network.js`);
 
+// need to change network to binance based
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
